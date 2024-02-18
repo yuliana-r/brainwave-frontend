@@ -222,3 +222,15 @@ span {
   font-weight: bolder;
   margin-bottom: 15px;
 }
+
+/* Footer */
+
+footer {
+  background-color: #161c2d;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Questrial", sans-serif;
+}
