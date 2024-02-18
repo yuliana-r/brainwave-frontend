@@ -234,3 +234,47 @@ footer {
   align-items: center;
   font-family: "Questrial", sans-serif;
 }
+
+.categories-container {
+  display: flex;
+  justify-content: center;
+  padding: 10em 0;
+  gap: 7em;
+
+  width: 70%;
+}
+
+.footer-category {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 17px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.footer-category > h2 {
+  font-size: 17px;
+  color: #4a4f5b;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.footer-meta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  border-top: 1px solid #4a4f5b;
+  padding: 1em 0;
+}
+
+.copyright {
+  color: #4a4f5b;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2em;
+}
