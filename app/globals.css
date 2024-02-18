@@ -120,7 +120,8 @@ h1 {
   margin: 10px;
 }
 
-.pricing {
+.pricing,
+.features {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -190,3 +191,5 @@ span {
   border-radius: 5px;
   margin: 10px 0;
 }
+
+/* Features */
