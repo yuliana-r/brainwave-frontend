@@ -153,13 +153,13 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  gap: 2em;
+  gap: 1em;
 }
 
 .pricing-card {
   border: 1px solid #eaebed;
   border-radius: 10px;
-  padding: 2em;
+  padding: 3em 4em;
 }
 
 .pricing-card > p {
@@ -193,3 +193,32 @@ span {
 }
 
 /* Features */
+
+.feature-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 22px;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.feature-icon {
+  font-size: 25px;
+}
+
+.feature-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding: 3em;
+}
+
+.feature-title {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}

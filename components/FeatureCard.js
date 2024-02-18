@@ -1,9 +1,9 @@
 const FeatureCard = (props) => {
   return (
-    <div>
-      <p>{props.icon}</p>
+    <div className="feature-card">
+      <p className="feature-icon">{props.icon}</p>
       <div>
-        <p>{props.title}</p>
+        <p className="feature-title">{props.title}</p>
         <div>
           <p>
             With lots of unique blocks, you can easily build a page without

@@ -1,3 +1,5 @@
+import FeatureCard from "./FeatureCard";
+
 const Features = () => {
   return (
     <div className="features">
@@ -9,7 +11,14 @@ const Features = () => {
         Build your next consultancy website within few minutes.
       </p>
 
-      <div></div>
+      <div className="feature-cards">
+        <FeatureCard icon="⚙️" title="Quick setup process" />
+        <FeatureCard icon="🛒" title="Create custom orders" />
+        <FeatureCard icon="💳" title="Multiple coupons" />
+        <FeatureCard icon="🏅" title="Organize your campaigns" />
+        <FeatureCard icon="👤" title="Manage customers" />
+        <FeatureCard icon="📊" title="Track progress fast" />
+      </div>
     </div>
   );
 };
