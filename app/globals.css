@@ -101,3 +101,92 @@ a:hover {
 .signup-text {
   color: #fff;
 }
+
+/* Pricing */
+
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 2px;
+  color: #161c2d;
+  margin-bottom: 0.5em;
+}
+
+.info {
+  font-size: 19px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #161c2d;
+  margin: 10px;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Questrial", sans-serif;
+  width: 70%;
+}
+
+.pricing-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.highlight {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #473bf0;
+  font-weight: bolder;
+  background-color: #eeebfc;
+  padding: 0.75em;
+  border-radius: 100px;
+}
+
+.pricing-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 2em;
+}
+
+.pricing-card {
+  border: 1px solid #eaebed;
+  border-radius: 10px;
+  padding: 2em;
+}
+
+.pricing-card > p {
+  margin-bottom: 15px;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.plan-name {
+  color: #473bf0;
+  font-weight: bold;
+  font-family: "Questrial", sans-serif;
+  margin-bottom: 10px;
+}
+
+span {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.trial-button {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #473bf0;
+  font-weight: bolder;
+  background-color: #eeebfc;
+  padding: 0.75em 1em;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+}
