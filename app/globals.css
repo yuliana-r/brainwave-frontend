@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 5em;
+}
+
+/* Navbar */
+
+nav {
+  width: 70%;
+  padding: 1em 0;
+}
+
+nav,
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.main-links {
+  border-right: 1px solid #eaebed;
+}
+
+.signup-links {
+  gap: 1.1em;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  font-weight: 700;
+  padding: 0.25em 1.5em;
+}
+
+li {
+  list-style: none;
+  color: #000;
+  letter-spacing: 1px;
+  font-family: "Questrial", sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.signup-btn {
+  background-color: #473bf0;
+  padding: 1em 2em;
+  font-size: 17px;
+  font-family: "Questrial", sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+
+.signup-text:hover {
+  text-decoration: none;
+}
+
+.signup-btn:hover,
+.trial-button:hover {
+  transform: scale(1.05);
+  cursor: grab;
+}
+
+.signup-text {
+  color: #fff;
+}
